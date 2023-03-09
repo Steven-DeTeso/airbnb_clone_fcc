@@ -4,10 +4,10 @@ import Hero from "./components/Hero"
 import Card from "./components/Card"
 
 function App () {
-    {/* <Hero /> */}
     return (
-    <div className="app-wrapper">
+        <div className="app-wrapper">
         <Navbar />
+        <Hero />
         <Card />
     </div>
     )
