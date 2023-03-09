@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.gray {
+    color: #918E9B;
+}
+
 nav {
     width: 550px;
     height: 70px;
@@ -21,7 +25,7 @@ margin-left: 30px;
 margin-top: 22px;
 }
 
-.hero-wrapper {
+.hero-wrapper, .card-wrapper {
     width: 550px;
     margin: auto;
 }
@@ -56,4 +60,20 @@ width: 320px;
 height: 56px;
 
 color: #222222;
+}
+
+.katy-photo {
+width: 176px;
+height: 235px;
+
+border-radius: 9px;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card-star {
+    height: 14px;
 }
