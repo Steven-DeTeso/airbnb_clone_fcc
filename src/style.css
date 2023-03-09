@@ -20,3 +20,40 @@ height: 25.35px;
 margin-left: 30px;
 margin-top: 22px;
 }
+
+.hero-wrapper {
+    width: 550px;
+    margin: auto;
+}
+
+.hero-img {
+    width: 395.91px;
+    height: 232px;
+    margin-left: 77px;
+    margin-top: 96px;
+}
+
+.hero-header {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    margin-left: 36px;
+    color: #000000;
+}
+
+.hero-paragraph {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 110%;
+margin-left: 36px;
+width: 320px;
+height: 56px;
+
+color: #222222;
+}
