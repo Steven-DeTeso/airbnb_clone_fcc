@@ -81,3 +81,13 @@ border-radius: 9px;
 .card-wrapper {
     margin-left: 460px;
 }
+
+.card-badge {
+    position: absolute;
+    top: 76px;
+    left: 467px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}

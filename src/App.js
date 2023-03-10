@@ -8,12 +8,14 @@ import data from "./data"
 function App () {
     const mapData = data.map(data => {
         return (<Card 
+        key={data.id}
         img={data.coverImg} 
         rating={data.stats.rating}
         reviewCount={data.stats.reviewCount}
         location={data.location}
         title={data.title}
         price={data.price}
+        openSpots={data.openSpots}
         />)
     })
     return (
