@@ -1,17 +1,17 @@
 import React from "react"
 
-export default function Card () {
+export default function Card (props) {
     return (
         <div className="card-wrapper">
-            <img className="katy-photo" src={require("../images/katy.png")} alt="katy swimmer"/>
+            <img className="katy-photo" src={require(`../images/${props.img}`)} alt="katy swimmer"/>
             <div className="card-stats">
                 <img className="card-star" src={require("../images/star.png")} alt="red star"/>
-                <span>5.0</span>
-                <span className="gray">(6) *</span>
-                <span className="gray"> USA</span>
+                <span>{props.rating}</span>
+                <span className="gray">({props.reviewCount}) *</span>
+                <span className="gray"> {props.country}</span>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><strong>From $136</strong> / person</p>
+            <p>{props.title}</p>
+            <p><strong>From ${props.price}</strong> / person</p>
         </div>
     )
 }
